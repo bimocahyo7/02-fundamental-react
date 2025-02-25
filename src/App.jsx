@@ -1,7 +1,9 @@
+import { useState } from "react";
 import "./App.css";
 import Counter from "./Counter";
 import Example from "./Example";
 import Greeting from "./Greeting";
+import TodoList from "./TodoList";
 
 function Header() {
   return (
@@ -29,6 +31,8 @@ function Footer() {
 }
 
 function App() {
+  const [todos, setTodos] = useState([]);
+
   return (
     <div>
       <Header />
@@ -36,6 +40,7 @@ function App() {
       <Greeting name="Bimo Cahyo" />
       <Counter />
       <Example />
+      <TodoList todos={todos} setTodos={setTodos} />
       <Footer />
     </div>
   );
