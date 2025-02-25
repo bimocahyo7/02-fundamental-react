@@ -39,3 +39,9 @@
 8. Tampilan website saat ini
 
     ![Output website](public/images/8-ouput-App.png)
+
+## TUGAS
+
+### Screenshot tampilan komponen `Todo List` dengan fitur menambahkan tugas baru dan menghapus data
+
+![Output Todo List](public/images/9-todo-list.png)
